@@ -22,7 +22,7 @@ The form asks for an intro call. A successful submission means SendGrid accepted
 
 ## Brand source
 
-`vendor/raidguild-brand-system-0.1.0.tgz` was built from the working Louchi branch at `~/Projects/raidguild/brand/brand`, commit `0a6520ec21ac18e32885ce2d20228954d2ac7f24`. The source brand instructions are copied to `RG_BRAND_AGENTS.md`. The site imports package tokens, fonts, theme provider, buttons and form fields. It uses the open Afacad Flux fallback because the active Grinder fonts are not part of the redistributable package.
+`vendor/raidguild-brand-system-0.1.0.tgz` was built from the `feat/versioned-brand-reigns` branch at `~/Projects/raidguild/brand/brand`, commit `0ba4c878064f06bfaeb37161e6c47f27d6327c01`. The source brand instructions are copied to `RG_BRAND_AGENTS.md`. The site imports package tokens, fonts, theme provider, buttons and form fields. The package keeps Afacad Flux as its open fallback; this landing page supplies the authoritative Last Duel Bold Extended and Bold Extended Retalic cuts locally for its headings. The owner confirmed rights to publish these files in public repositories in the website branch’s November 4 STATUS record.
 
 The applied-AI spear illustration, landscape image, and swords marks were copied from that brand checkout. The landscape was converted to a smaller WebP social preview. The 46-second video came from `outputs/october-cohort-recap/october-cohort-recap.mp4` in the November 6 Codex workspace. `public/images/cohort-poster.jpg` is a frame extracted at 5 seconds with FFmpeg. Open font licences are retained under `public/fonts/`; `UbuntuMono-UFL.txt` is the Ubuntu Font Licence applicable to the included Ubuntu family files.
 
