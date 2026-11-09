@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/brand-ui";
 import { InquiryForm } from "@/components/inquiry-form";
-import { Faq } from "@/components/faq";
 
 const steps = [
   { number: "01", title: "Choose the right work", text: "We identify real workflows, choose a useful prototype target, and agree on approved tools and data boundaries." },
@@ -56,7 +55,7 @@ export default function Home() {
 
     <section className="pilot section-pad" aria-labelledby="pilot-title"><div className="container"><p className="section-label">PILOT FORMAT <span>06 / 07</span></p><h2 id="pilot-title">Shape a pilot around<br /><em>your team’s work.</em></h2><div className="pilot-facts"><div><span>FORMAT</span><strong>Remote, guided sessions</strong></div><div><span>PARTICIPANTS</span><strong>Small teams, scoped together</strong></div><div><span>LENGTH &amp; PRICE</span><strong>Scoped per team</strong></div></div><p className="pilot-note">We agree on the workflow, participant group, schedule, approved tools, and data boundaries before the pilot begins.</p></div></section>
 
-    <section className="faq section-pad" aria-labelledby="faq-title"><div className="container faq-grid"><div><p className="section-label">GOOD QUESTIONS <span>07 / 07</span></p><h2 id="faq-title">Before we<br /><em>get started.</em></h2></div><Faq /></div></section>
+    <section className="faq section-pad" aria-labelledby="faq-title"><div className="container faq-grid"><div><p className="section-label">THE DETAILS <span>07 / 07</span></p><h2 id="faq-title">Before we<br /><em>get started.</em></h2></div><p className="faq-copy">We start with your team and a workflow worth building for. Together, we agree on the pilot’s format, schedule, price, approved tools, and data boundaries.</p></div></section>
 
     <section className="contact section-pad" id="contact" aria-labelledby="contact-title"><div className="container contact-grid"><div><p className="section-label">START A CONVERSATION <span>↗</span></p><h2 id="contact-title">Let’s find the right<br /><em>thing to build.</em></h2><p>Tell us a little about your team and the workflow you have in mind. We’ll follow up to arrange an intro call.</p><p className="contact-email">Prefer email? <a href="mailto:clerics@raidguild.org">clerics@raidguild.org</a></p></div><InquiryForm /></div></section>
     <footer className="footer"><div className="container footer-inner"><a className="brand" href="#top"><Image src="/images/symbol-black.svg" alt="" width={30} height={30} /><span>RAIDGUILD</span></a><p>A RaidGuild practice</p><a href="https://raidguild.org" target="_blank" rel="noopener noreferrer">Back to RaidGuild <span aria-hidden="true">↗</span></a></div></footer>
