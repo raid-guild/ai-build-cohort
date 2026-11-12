@@ -36,4 +36,4 @@ npm run typecheck
 npm run build
 ```
 
-Dekan’s host portrait (`public/images/member-dekan.png`) comes from the public member image at `https://www.raidguild.org/images/member-dekan.png`, retrieved November 12, 2026.
+Dekan’s host portrait (`public/images/dekan-host.webp`) is the user-supplied workspace photo from November 12, 2026, encoded as WebP for delivery. The square framing uses CSS; the source image is not cropped or retouched.
