@@ -35,3 +35,5 @@ npm test
 npm run typecheck
 npm run build
 ```
+
+Dekan’s host portrait (`public/images/member-dekan.png`) comes from the public member image at `https://www.raidguild.org/images/member-dekan.png`, retrieved November 12, 2026.

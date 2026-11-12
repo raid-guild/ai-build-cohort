@@ -38,3 +38,11 @@ html:has(.inquiry-success[open]){overflow:hidden}
 @media(max-width:650px){.inquiry-success{padding:28px 22px;box-shadow:6px 6px 0 var(--pink)}.inquiry-success h2{font-size:clamp(24px,7vw,30px)}.inquiry-success>p:not(.success-eyebrow){font-size:16px}}
 
 .inquiry-success h2 em{white-space:nowrap}
+
+.people-profile{width:220px;max-width:100%;margin:0;align-self:start;justify-self:end}
+.people-profile img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border:1px solid var(--ink);box-shadow:6px 6px 0 var(--pink)}
+.people-profile figcaption{display:grid;gap:5px;margin-top:20px}
+.people-profile figcaption strong{font-size:19px}
+.people-profile figcaption span{font-family:'Ubuntu Mono',monospace;font-size:12px}
+@media(max-width:1100px){.people-grid{grid-template-columns:200px minmax(0,1fr);gap:32px}.people-grid>.section-label{grid-column:1/-1;margin-bottom:0}.people-grid>div:nth-child(2){grid-column:2;grid-row:2}.people-profile{grid-column:1;grid-row:2;justify-self:start}}
+@media(max-width:650px){.people-grid{display:flex;flex-direction:column;gap:0}.people-grid>.section-label{margin-bottom:30px}.people-profile{order:1;width:180px;margin-bottom:28px}.people-grid>div:nth-child(2){order:2}}
