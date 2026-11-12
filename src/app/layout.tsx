@@ -9,12 +9,12 @@ const siteUrl = "https://ai-build-cohort-production.up.railway.app";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "AI Build Cohort | RaidGuild",
-  description: "Your team learns applied AI by building working prototypes for its own workflows, with hands-on guidance from RaidGuild builders.",
+  description: "A one-month guided AI build cohort for 4–8 participants. Practical workshops, weekly support, and a demo day. Pilots start at $5,000 per team.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     title: "AI Build Cohort | RaidGuild",
-    description: "Build working prototypes for your own workflows with hands-on guidance from RaidGuild builders.",
+    description: "One month, 4–8 participants, and six guided sessions to build useful AI prototypes for your work. Starting at $5,000 per team.",
     url: siteUrl,
     images: [{ url: "/images/hero-light-poster.webp", width: 1600, height: 684, alt: "RaidGuild illustrated landscape" }],
   },

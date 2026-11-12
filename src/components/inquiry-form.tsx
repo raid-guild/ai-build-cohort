@@ -37,8 +37,8 @@ export function InquiryForm() {
     <div className="form-head"><span>INTRO REQUEST</span><span>01—06</span></div>
     <div className="form-row"><div><Label htmlFor="name">Full name</Label><Input id="name" name="name" autoComplete="name" required maxLength={120} placeholder="Your name" /></div><div><Label htmlFor="email">Work email</Label><Input id="email" name="email" type="email" autoComplete="email" required maxLength={254} placeholder="you@company.com" /></div></div>
     <div className="form-row"><div><Label htmlFor="company">Company</Label><Input id="company" name="company" autoComplete="organization" required maxLength={160} placeholder="Company name" /></div><div><Label htmlFor="role">Your role</Label><Input id="role" name="role" autoComplete="organization-title" required maxLength={120} placeholder="What you do" /></div></div>
-    <div><Label htmlFor="teamSize">Team size</Label><Input id="teamSize" name="teamSize" required maxLength={80} placeholder="e.g. 12 people or 250-person company" /></div>
-    <div><Label htmlFor="workflow">What would you like your team to build?</Label><Textarea id="workflow" name="workflow" required maxLength={2000} rows={4} placeholder="A workflow, bottleneck, or first idea is enough." /></div>
+    <div><Label htmlFor="teamSize">Expected participants</Label><Input id="teamSize" name="teamSize" required maxLength={80} placeholder="e.g. 6 people" /></div>
+    <div><Label htmlFor="workflow">What would you like your team to build?</Label><Textarea id="workflow" name="workflow" required maxLength={2000} rows={4} placeholder="A recurring task, bottleneck, or first idea is enough." /></div>
     <div className="honeypot" aria-hidden="true"><label>Website<input name="website" tabIndex={-1} autoComplete="off" /></label></div>
     <Button type="submit" className="button button-primary form-submit" disabled={status === "sending"}>{status === "sending" ? "Sending…" : "Request an intro call"}<span aria-hidden="true">↗</span></Button>
     <p className="form-fineprint">We’ll use these details only to follow up about your request.</p>
