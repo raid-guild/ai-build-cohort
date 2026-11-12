@@ -31,7 +31,7 @@ export default function Home() {
       <div className="hero-content" id="main-content">
         <p className="eyebrow"><span className="eyebrow-dot" /> RAIDGUILD / APPLIED AI</p>
         <p className="hero-practice">A RaidGuild practice</p>
-        <h1>Build with AI.<br /><em>Build for your work.</em></h1>
+        <h1><span className="hero-promise">Build with AI.</span><br /><em>Build for your work.</em></h1>
         <p className="hero-lede">Your team learns applied AI by building working prototypes for its own workflows, with hands-on guidance from RaidGuild builders.</p>
         <div className="hero-actions"><Button asChild className="button button-primary"><a href="#contact">Book an intro call <span aria-hidden="true">↗</span></a></Button><a className="text-link" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a></div>
         <p className="hero-note">A guided cohort for company teams · Remote · Scoped to your team</p>
