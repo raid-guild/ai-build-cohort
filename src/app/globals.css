@@ -20,3 +20,21 @@ h2,:is(.problem,.how,.outcomes,.proof,.people,.pilot,.faq,.contact) h2{font-size
 .hero h1{font-size:min(clamp(42px,4.3vw,62px),8.5cqw)}
 .hero-promise{white-space:nowrap}
 @media(max-width:650px){.hero h1{font-size:min(clamp(25px,6.6vw,30px),8.5cqw)}}
+
+/* A modal confirmation gives a successful inquiry a clear finish. */
+html:has(.inquiry-success[open]){overflow:hidden}
+.inquiry-success{width:min(560px,calc(100% - 40px));max-height:calc(100dvh - 48px);margin:auto;padding:40px;border:2px solid var(--ink);background:var(--cream);color:var(--ink);box-shadow:10px 10px 0 var(--pink);overflow-y:auto}
+.inquiry-success::backdrop{background:rgba(16,45,44,.78);backdrop-filter:blur(5px)}
+.success-close{position:absolute;right:16px;top:12px;display:grid;place-items:center;width:44px;height:44px;background:transparent;border:1px solid var(--ink);color:var(--ink);font-size:30px;cursor:pointer}
+.success-close:hover,.success-x:hover{background:var(--lime)}
+.success-check{display:grid;place-items:center;width:52px;height:52px;margin-bottom:24px;border-radius:50%;background:var(--lime);font-size:30px;font-weight:700}
+.success-eyebrow{font-family:'Ubuntu Mono',monospace;font-size:12px;letter-spacing:.06em;margin-bottom:18px}
+.inquiry-success h2{font-size:clamp(30px,5vw,46px);line-height:1.08;margin-bottom:22px}
+.inquiry-success>p:not(.success-eyebrow){font-size:17px;line-height:1.5}
+.inquiry-success .success-next{margin:26px 0 16px;font-weight:600}
+.success-links{display:grid;gap:12px}
+.success-x{border:1px solid var(--ink);background:transparent}
+.success-back{display:block;margin:24px auto 0;padding:8px;background:transparent;border:0;text-decoration:underline;text-underline-offset:4px;color:var(--ink);cursor:pointer}
+@media(max-width:650px){.inquiry-success{padding:28px 22px;box-shadow:6px 6px 0 var(--pink)}.inquiry-success h2{font-size:clamp(24px,7vw,30px)}.inquiry-success>p:not(.success-eyebrow){font-size:16px}}
+
+.inquiry-success h2 em{white-space:nowrap}
